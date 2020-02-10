@@ -5,7 +5,7 @@
 ```ruby
 
 class CardGame
-def checkforAce(card)# not a coding thing but there should be _ between words.
+def checkforAce(card)
     if card.value = 1 # this should be two equals (==)
       #there is no return true here.
     else
@@ -25,7 +25,7 @@ end # this end will end the class it needs to be at the end.
 def self.cards_total(cards)
   total         #total needs to be total = 0
   for card in cards
-    total += card.value   #the return bar below needs to be after an end. This will just return the first value we dont want that. 
+    total += card.value   #the return bar below needs to be after an end. This will just return the first value we dont want that.
     return "You have a total of" + total # the total needs to be changed to a string. to_s
   end
 end
